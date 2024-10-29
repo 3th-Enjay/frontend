@@ -1,10 +1,12 @@
 import React from "react";
 import DeclarationPage from "./declaration-page/page";
+import ProfileRegistration from "./profile-registration/page";
 
 const Home = () => {
   return (
     <div>
-      <DeclarationPage />
+      {/* <DeclarationPage /> */}
+      <ProfileRegistration />
     </div>
   );
 };
